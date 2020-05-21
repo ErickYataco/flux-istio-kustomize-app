@@ -1,1 +1,1 @@
-# flux-istio-bookinfo-app
+# flux-istio-kustomize-bookinfo-app
