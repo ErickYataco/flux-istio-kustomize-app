@@ -4,6 +4,8 @@ kind: Service
 metadata:
   name: eks1
   namespace: torus
+annotations:
+  service.beta.kubernetes.io/aws-load-balancer-security-groups: eksNodeSecurityGroup
 spec:
   type: LoadBalancer
   ports:
